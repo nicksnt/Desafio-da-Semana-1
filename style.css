@@ -1,0 +1,193 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul{
+    padding: 0px;
+}
+
+/*cabecalho*/
+
+.cabecalho{
+    background-color: #1f97d4;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-content: space-around;
+}
+
+.main{
+    margin: none;
+    width: 100%;
+    float:left;
+    position: relative;
+}
+
+.logo{
+    padding-top: 5px;
+    padding-left: 7px;
+    padding-right: 10px;
+    width: 4.5%;
+}
+
+.unidas{
+    line-height: 1.2;
+    color: #ffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-self: flex-start;
+    padding-right: 50%;
+}
+
+/*firula de barrinha no menu*/
+
+.menu ul li{
+    display: inline-block;
+    color: #ffff;
+    align-self: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 30px;
+    padding-top: 13px;
+    height: 48px;
+}
+.menu ul li:hover{
+    border-bottom: 2px solid #fff;
+}
+.menu ul li a:hover{
+    color: #ffff;
+}
+.menu ul li a{
+    display: inline-block;
+    color: #ffff;
+    text-decoration: none;
+}
+
+/*primeira parte*/
+
+.inicio{
+    background-color: #b2c5ce4e;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+}
+
+.pergunta{
+    width: 30%;
+    font-size: larger;
+    text-align: right;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+}
+
+.resposta{
+    width: 55%;
+    text-align: justify;
+    font-size: large;
+}
+
+/*segunda parte*/
+
+.peixe{
+    background-color: #1f97d4;
+    width: 100%;
+    height: 395px;
+    display: flex;
+    align-content: space-around;
+}
+
+.introducao{
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 100px;
+    line-height: 0.5;
+    color: #ffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-self: flex-start;
+    font-size: large;
+}
+
+
+/*slick slider*/
+.slider{
+    display: inline-block;
+    width: 54%;
+    padding-top: 30px;
+    color: #ffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    text-align: justify;
+}
+
+/*caixa slider*/
+.slick-list.draggable{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*botao anterior*/
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    position: absolute;
+    z-index: 9;
+    top: 35%;
+    background-color: transparent;
+    background-image: url('midia/arrow-left-menor.png');
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 46px;
+}
+
+/*botao proximo*/
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    position: absolute;
+    z-index: 9;
+    left: 97%;
+    bottom: 50%;
+    background-color: transparent;
+    background-image: url('midia/arrow-right-menor.png');
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 46px;
+}
+
+/*bolinhas slider*/
+.slick-initialized{
+    overflow: hidden;
+}
+
+
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    padding-left: 30%;
+}
+
+.slick-dots li{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.slick-dots li button{
+    font-size: 0px;
+    border: 2px solid #ffff;
+    background-color: transparent;
+    width: 5px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+li.slick-active button{
+    background-color: #ffff;
+}
